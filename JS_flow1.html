@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <title>網頁互動程式設計</title>
+    <script src="text.js" language="javascript"></script>
+	<style>
+     	a {text-decoration: none;}
+    </style>
+	
+	<script language="javascript">
+		var mywin = null;
+		
+		function mywinop(){
+			mywin = window.open("win_print.html","mywin","height=0%","width=0%")
+			mywin.moveBy(500,500)
+		}
+	</script>
+	
+</head>
+
+<body style="background: url('t2.jpg'); background-size: cover; background-repeat: no-repeat;">
+<center>
+			<h1>網頁互動程式設計</h1>
+			<hr color="#C7595B" style="width: 70%;">
+			<table>
+				<td>
+					<h2 onclick="javascript:alert(price*0.9 + '元');">一般優惠碼(10%off)</h2>
+				</td>
+					<td width="60%">
+						<marquee scrollamount="10" behavior="alternate">
+							<center>
+								<a href="javascript:mywinop();">
+									<h2>點擊開啟</h2>
+									<img src="p1.jpg" align="center" >
+								</a>
+							</center>	
+						</marquee>
+					</td>	
+				<td><h2 onclick="javascript:alert(price*0.6 + '元');">會員優惠碼(40%off)</h2></td>
+			</table>
+			<!-- 導覽列開始 -->
+			<big><b>
+				<a href="home.html">首頁&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_exercises.html">JS運算值＆邏輯&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_BMI.html">JS_BMI&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_flow1.html">JS-流程swich&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_for.html">JS-流程for&nbsp;&nbsp;&nbsp;</a>
+				<a href="Temperature.html">Temperature&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_guess.html">猜數遊戲&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="JS_array.html">一維陣列&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_array2.html">二維陣列&nbsp;&nbsp;&nbsp;</a>
+				<a href="For_in.html">For_in&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_function.html">函數&nbsp;&nbsp;&nbsp;</a>
+				<a href="Windows.html">Windows&nbsp;&nbsp;&nbsp;</a>
+				<a href="Pin.html">縮圖看原圖&nbsp;&nbsp;&nbsp;</a>
+				<a href="BMI.html">BMI&nbsp;&nbsp;&nbsp;</a>
+				<a href="math_time.html">數學與日期之基本使用&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="innerHTML.html">innerHTML&nbsp;&nbsp;&nbsp;</a>
+				<a href="Element.html">Element物件&nbsp;&nbsp;&nbsp;</a>
+				<a href="time_up.html">倒數計時&nbsp;&nbsp;&nbsp;</a>
+				<a href="Quotes.html">語錄&nbsp;&nbsp;&nbsp;</a>
+				<a href="Check.html">帳號檢查&nbsp;&nbsp;&nbsp;</a>
+				<a href="changepic.html">變換&nbsp;&nbsp;&nbsp;</a>
+				<a href="Course_description.html">課程說明&nbsp;&nbsp;&nbsp;</a>
+				<a href="Register_online.html">線上報名&nbsp;&nbsp;&nbsp;</a>
+				<a href="about_me.html">關於我&nbsp;&nbsp;&nbsp;</a>
+				<a href="contact_me.html">與我聯絡</a>
+			</b></big>
+			<!-- 導覽列結束 -->
+			<hr color="#C7595B" style="width: 70%;">
+</center>
+<center>
+			<!-- InstanceBeginEditable name="web_page_title" --><h2>JS-流程swich</h2><!-- InstanceEndEditable -->
+			<!-- InstanceBeginEditable name="web_page_main" -->
+				<script language="javascript">var x=prompt("請輸入1－3數字：","");
+					switch(x){
+						case "1":
+							 alert("one");
+								break;
+						case "2":
+							alert("two")
+								;break;
+							case "3":
+								alert("three");
+									break;
+						default:
+							alert("超出範圍");
+								break;}
+				</script>
+<!--
+				<script>
+  					var numInput = window.prompt("請輸入0-6數字", "");
+  						switch (Number(numInput)) {
+							case 0:
+							  window.alert("星期日");
+							  break;
+							case 1:
+							  window.alert("星期一");
+							  break;
+							case 2:
+							  window.alert("星期二");
+							  break;
+							case 3:
+							  window.alert("星期三");
+							  break;
+							case 4:
+							  window.alert("星期四");
+							  break;
+							case 5:
+							  window.alert("星期五");
+							  break;
+							case 6:
+							  window.alert("星期六");
+							  break;
+							default:
+							  window.alert("輸入錯誤");
+						  }
+				</script>
+-->
+<!--
+				<script>
+				  var numInput = window.prompt("請輸入1-12之間的數字", "");
+				  switch (Number(numInput)) {
+					case 1:
+					  window.alert("January");
+					  break;
+					case 2:
+					  window.alert("February");
+					  break;
+					case 3:
+					  window.alert("March");
+					  break;
+					case 4:
+					  window.alert("April");
+					  break;
+					case 5:
+					  window.alert("May");
+					  break;
+					case 6:
+					  window.alert("June");
+					  break;
+					case 7:
+					  window.alert("July");
+					  break;
+					case 8:
+					  window.alert("August");
+					  break;
+					case 9:
+					  window.alert("September");
+					  break;
+					case 10:
+					  window.alert("October");
+					  break;
+					case 11:
+					  window.alert("November");
+					  break;
+					case 12:
+					  window.alert("December");
+					  break;
+					default:
+					  window.alert("輸入錯誤");
+				  }
+				</script>
+-->
+			<!-- InstanceEndEditable -->
+</center>	
+<center>
+		<img src="g1.gif" alt="GIF示例" >
+</center>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <title>網頁互動程式設計</title>
+    <script src="text.js" language="javascript"></script>
+	<style>
+     	a {text-decoration: none;}
+    </style>
+	
+	<script language="javascript">
+		var mywin = null;
+		
+		function mywinop(){
+			mywin = window.open("win_print.html","mywin","height=0%","width=0%")
+			mywin.moveBy(500,500)
+		}
+	</script>
+	
+</head>
+
+<body style="background: url('t2.jpg'); background-size: cover; background-repeat: no-repeat;">
+<center>
+			<h1>網頁互動程式設計</h1>
+			<hr color="#C7595B" style="width: 70%;">
+			<table>
+				<td>
+					<h2 onclick="javascript:alert(price*0.9 + '元');">一般優惠碼(10%off)</h2>
+				</td>
+					<td width="60%">
+						<marquee scrollamount="10" behavior="alternate">
+							<center>
+								<a href="javascript:mywinop();">
+									<h2>點擊開啟</h2>
+									<img src="p1.jpg" align="center" >
+								</a>
+							</center>	
+						</marquee>
+					</td>	
+				<td><h2 onclick="javascript:alert(price*0.6 + '元');">會員優惠碼(40%off)</h2></td>
+			</table>
+			<!-- 導覽列開始 -->
+			<big><b>
+				<a href="home.html">首頁&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_exercises.html">JS運算值＆邏輯&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_BMI.html">JS_BMI&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_flow1.html">JS-流程swich&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_for.html">JS-流程for&nbsp;&nbsp;&nbsp;</a>
+				<a href="Temperature.html">Temperature&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_guess.html">猜數遊戲&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="JS_array.html">一維陣列&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_array2.html">二維陣列&nbsp;&nbsp;&nbsp;</a>
+				<a href="For_in.html">For_in&nbsp;&nbsp;&nbsp;</a>
+				<a href="JS_function.html">函數&nbsp;&nbsp;&nbsp;</a>
+				<a href="Windows.html">Windows&nbsp;&nbsp;&nbsp;</a>
+				<a href="Pin.html">縮圖看原圖&nbsp;&nbsp;&nbsp;</a>
+				<a href="BMI.html">BMI&nbsp;&nbsp;&nbsp;</a>
+				<a href="math_time.html">數學與日期之基本使用&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="innerHTML.html">innerHTML&nbsp;&nbsp;&nbsp;</a>
+				<a href="Element.html">Element物件&nbsp;&nbsp;&nbsp;</a>
+				<a href="time_up.html">倒數計時&nbsp;&nbsp;&nbsp;</a>
+				<a href="Quotes.html">語錄&nbsp;&nbsp;&nbsp;</a>
+				<a href="Check.html">帳號檢查&nbsp;&nbsp;&nbsp;</a>
+				<a href="changepic.html">變換&nbsp;&nbsp;&nbsp;</a>
+				<a href="Course_description.html">課程說明&nbsp;&nbsp;&nbsp;</a>
+				<a href="Register_online.html">線上報名&nbsp;&nbsp;&nbsp;</a>
+				<a href="about_me.html">關於我&nbsp;&nbsp;&nbsp;</a>
+				<a href="contact_me.html">與我聯絡</a>
+			</b></big>
+			<!-- 導覽列結束 -->
+			<hr color="#C7595B" style="width: 70%;">
+</center>
+<center>
+			<!-- InstanceBeginEditable name="web_page_title" --><h1>縮圖看原圖</h1><!-- InstanceEndEditable -->
+			<!-- InstanceBeginEditable name="web_page_main" -->
+				<script language="javascript">
+					var hotdog2 = null;
+
+						function hotdogop(){
+							hotdog2 =window.open("hotdog.html","hotdog","height=100%","width=100%")
+							
+							hotdog2.move(500,500)
+						}
+						function hotdogop2(){
+							hotdog2 =window.open("hotdog3X.html","hotdog","height=300%","width=300%")
+
+							hotdog2.move(0,0)
+						}
+				</script>
+				<a href="javascript:hotdogop();">
+					<img src="hotdog1.webp" width="10%" height="10%"/><br>原始圖片
+				</a>
+				<a href="javascript:hotdogop2();">
+					3倍大圖片
+				</a>	
+			<!-- InstanceEndEditable -->
+</center>	
+<center>
+		<img src="g1.gif" alt="GIF示例" >
+</center>
+</body>
+<!-- InstanceEnd --></html>
